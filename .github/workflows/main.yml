@@ -38,7 +38,7 @@ jobs:
         author_email: "skywrt@outlook.com"
         message: "Fresh🔥❤️‍🔥🎆"
         add: "."
-        push: "https://github.com/skywrt/v2ray-configs.git"
+       
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
