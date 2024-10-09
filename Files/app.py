@@ -59,21 +59,12 @@ def decode_dir_links(dir_links):
 
 def main():
     links = [
-        'https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt',
-        'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality',
-        'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless',
-        'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess',
-        'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan',
-        'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks',
-        'https://raw.githubusercontent.com/ts-sf/fly/main/v2',
-        'https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub',
-        'https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/merged.txt'
+        'https://pxypool.131433.xyz/clash/proxies'
+        
     ]
     dir_links = [
-        'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt',
-        'https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt',
-        'https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/actives.txt',
-        'https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt'
+        'http://brovee.myds.me:12580/clash/proxies'
+        
        ]
 
     decoded_links = decode_links(links)
@@ -108,7 +99,7 @@ def main():
     with open(output_file, 'r') as f:
         lines = f.readlines()
     num_lines = len(lines)
-    max_lines_per_file = 500
+    max_lines_per_file = 3860
     num_files = (num_lines + max_lines_per_file - 1) // max_lines_per_file
     for i in range(num_files):
         start_index = i * max_lines_per_file
