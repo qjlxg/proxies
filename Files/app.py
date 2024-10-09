@@ -59,12 +59,12 @@ def decode_dir_links(dir_links):
 
 def main():
     links = [
-       # 'https://pxypool.131433.xyz/clash/proxies',
+        "https://pxypool.131433.xyz/clash/proxies",
         "http://141.147.161.50:12580/clash/proxies"
         
     ]
     dir_links = [
-       # 'http://brovee.myds.me:12580/clash/proxies'
+         "http://brovee.myds.me:12580/clash/proxies",
          "http://150.230.195.209:12580/clash/proxies"
        ]
 
