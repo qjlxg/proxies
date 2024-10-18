@@ -61,7 +61,8 @@ def main():
     links = [
         "https://proxypool1999.banyunxiaoxi.icu/clash/proxies",
         "https://pxypool.131433.xyz/clash/proxies",
-        "http://141.147.161.50:12580/clash/proxies"
+        "http://141.147.161.50:12580/clash/proxies",
+        "https://github.com/qjlxg/v2ray-worker-sub/raw/refs/heads/master/EternityBase"
         
     ]
     dir_links = [
